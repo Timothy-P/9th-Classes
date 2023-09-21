@@ -78,13 +78,7 @@ function D() {
     };
 };
 function E() {
-    MTime = TimeH+":"+TimeM+":"+TimeSec
-    if (TimeSec < "10") {
-        document.getElementById("Time").innerHTML = "Military Time: "+TimeH+":"+TimeM+":0"+TimeSec;
-    }
-    else {
-        document.getElementById("Time").innerHTML = "Military Time: "+MTime;    
-    };
+    MTime = TimeH+":"+TimeM+":"+TimeSec;
 };
 function F() {
     if(TimeH > 12) {
