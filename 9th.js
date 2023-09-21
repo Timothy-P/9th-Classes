@@ -79,7 +79,7 @@ function D() {
 };
 function E() {
     MTime = TimeH+":"+TimeM+":"+TimeSec;
-    document.getElementById("Time").innerHTML = MTime
+    document.getElementById("Time").innerHTML = "Military Time: "+MTime
 };
 function F() {
     if(TimeH > 12) {
