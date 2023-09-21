@@ -171,7 +171,7 @@ function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
     setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300);
 }
-const PTime3 = document.getElementById("Time3").innerHTML
+const PTime3 = "document.getElementById('Time3').innerHTML"
 function NextC() {
     if (PTime3 == "First Period, JROTC") {
         document.getElementById("NextClass").innerHTML = "Next Class: Advisory, Britt"
