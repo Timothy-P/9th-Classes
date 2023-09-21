@@ -79,6 +79,7 @@ function D() {
 };
 function E() {
     MTime = TimeH+":"+TimeM+":"+TimeSec;
+    document.getElementById("Time").innerHTML = MTime
 };
 function F() {
     if(TimeH > 12) {
