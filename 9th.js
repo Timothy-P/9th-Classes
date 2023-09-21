@@ -151,7 +151,7 @@ function G() {
     setTimeout("G()", 0.5);
     return "Classes are now displayed"
 };
-/*function C() {
+function C() {
     if (TimeM == "10" && TimeH == "15") {
         alert("2 minutes until school is over.")
     }
@@ -164,15 +164,15 @@ function G() {
     else if (TimeM == "22" && TimeH == RThirdHE) {
         alert("2 minutes until History is over.")
     }
-    else if (TimeM == RThirdME && TimeH == RThirdHe) {
+    else if (TimeM == "12" && TimeH == "11") {
         alert("2 minutes until Science is over.")
     }
     else {
         return "Not time yet. Stop bothering my stuff."
-    }
-    setTimeout("C()", 0.5)
-};*/
+    };
+    setTimeout("C()", 0.5);
+};
 function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
-    setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300)
+    setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300);
 }
