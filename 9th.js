@@ -1,5 +1,6 @@
-function Help() 
-{alert('This isn\'t finished. If you have any feedback to provid, to back to the site. If you don\'t remember the site, type \"Return()\" in the console. Note: It is case sensitive.')}
+function Help() {
+    alert('This isn\'t finished. If you have any feedback to provid, to back to the site. If you don\'t remember the site, type \"Return()\" in the console. Note: It is case sensitive.')
+}
 var TimeSec;
 var TimeM;
 var TimeH;
@@ -114,61 +115,55 @@ function F() {
     setTimeout("F()", 0.5);
 };
 function G() {
-    /*if (new Date().getDay() == "1") {
-        if (TimeH >= MEighthHS && MEighthHE >= TimeH && TimeM >= MEighthMS && MEighthME >= TimeM) {
+    if (new Date().getDay() == "1") {
+        if (TimeH >= MEighthHS && TimeM >= MEighthMS) {
             document.getElementById("Time3").innerHTML = "Eighth period, Mitchell";
         }
-        else if (TimeH >= MSeventhHS && MSeventhHE >= TimeH && TimeM >= MSeventhMS && MSeventhME >= TimeM) {
+        else if (TimeH >= MSeventhHS && TimeM >= MSeventhMS) {
             document.getElementById("Time3").innerHTML = "Seventh period, Strahan";
         }
-        else if (TimeH >= MSixthHS && MSixthHE >= TimeH && TimeM >= MSixthMS && MSixthME >= TimeM) {
+        else if (TimeH >= MSixthHS && TimeM >= MSixthMS) {
             document.getElementById("Time3").innerHTML = "Sixth period, Strahan";
         }
-        else if (TimeH >= MFifthHS && MFifthHE >= TimeH && TimeM >= MFifthMS && MFifthME >= TimeM) {
+        else if (TimeH >= MFifthHS && TimeM >= MFifthMS) {
             document.getElementById("Time3").innerHTML = "Fifth period, Hubbard";
         }
-        else if (TimeH >= MFourthHS && MFourthHE >= TimeH && TimeM >= MFourthMS && MFourthME >= TimeM) {
+        else if (TimeH >= MFourthHS && TimeM >= MFourthMS) {
             document.getElementById("Time3").innerHTML = "Fourth period, Caldwell";
         }
-        else if (TimeH >= MThirdHS && MThirdHE >= TimeH && TimeM >= MThirdMS && MThirdME >= TimeM) {
+        else if (TimeH >= MThirdHS && TimeM >= MThirdMS) {
             document.getElementById("Time3").innerHTML = "Third period, Canard";
         }
-        else if (TimeH >= MFirstHS && MFirstHE >= TimeH && TimeM >= MFirstMS && MFirstME >= TimeM) {
+        else if (TimeH >= MFirstHS && TimeM >= MFirstMS) {
             document.getElementById("Time3").innerHTML = "First period, JROTC";
-            }
-        else {
-            document.getElementById("Time3").innerHTML = "N/A";
         };
-    }*/
-    //else {
-        if (TimeH >= REighthHS && REighthHE >= TimeH && TimeM >= REighthMS && REighthME >= TimeM) {
+    }
+    else {
+        if (TimeH >= REighthHS && TimeM >= REighthMS) {
             document.getElementById("Time3").innerHTML = "Eighth period, Mitchell";
         }
-        else if (TimeH >= RSeventhHS && RSeventhHE >= TimeH && TimeM >= RSeventhMS && RSeventhME >= TimeM) {
+        else if (TimeH >= RSeventhHS && TimeM >= RSeventhMS) {
             document.getElementById("Time3").innerHTML = "Seventh period, Strahan";
         }
-        else if (TimeH >= RSixthHS && RSixthHE >= TimeH && TimeM >= RSixthMS && RSixthME >= TimeM) {
+        else if (TimeH >= RSixthHS && TimeM >= RSixthMS) {
             document.getElementById("Time3").innerHTML = "Sixth period, Strahan";
         }
-        else if (TimeH >= RFifthHS && RFifthHE >= TimeH && TimeM >= RFifthMS && RFifthME >= TimeM) {
+        else if (TimeH >= RFifthHS && TimeM >= RFifthMS) {
             document.getElementById("Time3").innerHTML = "Fifth period, Hubbard";
         }
-        else if (TimeH >= RFourthHS && RFourthHE >= TimeH && TimeM >= RFourthMS && RFourthME >= TimeM) {
+        else if (TimeH >= RFourthHS && TimeM >= RFourthMS) {
             document.getElementById("Time3").innerHTML = "Fourth period, Caldwell";
         }
-        else if (TimeH >= RThirdHS && RThirdHE >= TimeH && TimeM >= RThirdMS && RThirdME >= TimeM) {
+        else if (TimeH >= RThirdHS && TimeM >= RThirdMS) {
             document.getElementById("Time3").innerHTML = "Third period, Canard";
         }
-        else if (TimeH >= RSecondHS && RSecondHE >= TimeH && TimeM >= RSecondMS && RSecondME >= TimeM) {
+        else if (TimeH >= RSecondHS && TimeM >= RSecondMS) {
             document.getElementById("Time3").innerHTML = "Second period, Britt";
         }
-        else if (TimeH >= RFirstHS && RFirstHE >= TimeH && TimeM >= RFirstMS && RFirstME >= TimeM) {
+        else if (TimeH >= RFirstHS && TimeM >= RFirstMS) {
             document.getElementById("Time3").innerHTML = "First period, JROTC";
-        }
-        /*else {
-        document.getElementById("Time3").innerHTML = "N/A";
-        };*/
-    //};
+        };
+    };
     setTimeout("G()", 0.5);
     return "Classes are now displayed"
 };
