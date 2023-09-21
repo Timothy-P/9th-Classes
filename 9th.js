@@ -151,7 +151,7 @@ function G() {
     setTimeout("G()", 0.5);
     return "Classes are now displayed"
 };
-function C() {
+/*function C() {
     if (TimeM == "10" && TimeH == "15") {
         alert("2 minutes until school is over.")
     }
@@ -171,7 +171,7 @@ function C() {
         return "Not time yet. Stop bothering my stuff."
     }
     setTimeout("C()", 0.5)
-};
+};*/
 function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
     setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300)
