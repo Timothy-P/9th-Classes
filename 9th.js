@@ -38,21 +38,21 @@ var RSeventhHS = "13";
 var MEighthHS = "14";
 var REighthHS = "14";
 
-var MFirstME = "9:42";
-var RFirstME = "8:50";
-var RSecondME = "9:24";
-var MThirdME = "10:32";
-var RThirdME = "10:37";
-var MFourthME = "11:22";
-var RFourthME = "11:10";
-var MFifthME = "12:12";
-var RFifthME = "12:3";
-var MSixthME = "13:32";
-var RSixthME = "13:26";
-var MSeventhME = "14:22";
-var RSeventhME = "14:19";
-var MEighthME = "15:12";
-var REighthME = "15:12";
+var MFirstE = "9:42";
+var RFirstE = "8:50";
+var RSecondE = "9:24";
+var MThirdE = "10:32";
+var RThirdE = "10:37";
+var MFourthE = "11:22";
+var RFourthE = "11:10";
+var MFifthE = "12:12";
+var RFifthE = "12:3";
+var MSixthE = "13:32";
+var RSixthE = "13:26";
+var MSeventhE = "14:22";
+var RSeventhE = "14:19";
+var MEighthE = "15:12";
+var REighthE = "15:12";
 
 function A() {
 	B(), D(), E(), F(), Help(), C()
