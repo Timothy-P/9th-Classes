@@ -55,7 +55,7 @@ var MEighthE = "15:12";
 var REighthE = "15:12";
 
 function A() {
-	B(), D(), E(), F(), Help(), C()
+	B(), D(), E(), F(), Help(), C(), G()
 };
 function B() {
     if (TimeSec != new Date().getSeconds()) {
