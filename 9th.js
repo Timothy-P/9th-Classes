@@ -83,17 +83,11 @@ function E() {
 };
 function F() {
     if(TimeH > 12) {
-        var CTimeH = TimeH-12
-        if (TimeSec < "10") {
-            var CTime = CTimeH+":"+TimeM+":0"+TimeSec+" PM";
-        }
-        else {
-            var CTime = CTimeH+":"+TimeM+":"+TimeSec+" PM";
-        }
+        var CTime = CTimeH+":"+TimeM+":"+TimeSec+" PM";
         document.getElementById("Time2").innerHTML = "Civilian Time: "+CTime;
     }
     else {
-        document.getElementById("Time2").innerHTML = "Civilian Time: "+MTime;
+        document.getElementById("Time2").innerHTML = "Civilian Time: "+MTime+" AM";
     };
 };
 function G() {
@@ -102,7 +96,7 @@ function G() {
             document.getElementById("Time3").innerHTML = "Eighth period, Mitchell";
         }
         else if (TimeH >= MSeventhHS && TimeM >= MSeventhMS) {
-            document.getElementById("Time3").innerHTML = "Seventh period, Strahan";
+            document.getElementById("Time3").innerHTML = "Seventh period, Vaughn";
         }
         else if (TimeH >= MSixthHS && TimeM >= MSixthMS) {
             document.getElementById("Time3").innerHTML = "Sixth period, Strahan";
@@ -125,7 +119,7 @@ function G() {
             document.getElementById("Time3").innerHTML = "Eighth period, Mitchell";
         }
         else if (TimeH >= RSeventhHS && TimeM >= RSeventhMS) {
-            document.getElementById("Time3").innerHTML = "Seventh period, Strahan";
+            document.getElementById("Time3").innerHTML = "Seventh period, Vaughn";
         }
         else if (TimeH >= RSixthHS && TimeM >= RSixthMS) {
             document.getElementById("Time3").innerHTML = "Sixth period, Strahan";
@@ -171,30 +165,30 @@ function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
     setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300);
 }
-const PTime3 = "document.getElementById('Time3').innerHTML"
+let PTime3 = "document.getElementById('Time3')"
 function NextC() {
-    if (PTime3 == "First Period, JROTC") {
+    if (PTime3.innerHTML == "First Period, JROTC") {
         document.getElementById("NextClass").innerHTML = "Next Class: Advisory, Britt"
     }
-    else if (PTime3 == "Second Period, Britt") {
+    else if (PTime3.innerHTML == "Second Period, Britt") {
         document.getElementById("NextClass").innerHTML = "Next Class: History, Canard"
     }
-    else if (PTime3 == "Third Period, Canard") {
+    else if (PTime3.innerHTML == "Third Period, Canard") {
         document.getElementById("NextClass").innerHTML = "Next Class: Science, Caldwell"
     }
-    else if (PTime3 == "Fourth Period, Caldwell") {
+    else if (PTime3.innerHTML == "Fourth Period, Caldwell") {
         document.getElementById("NextClass").innerHTML = "Next Class: ELA, Hubbard"
     }
-    else if (PTime3 == "Fifth Period, Hubbard") {
+    else if (PTime3.innerHTML == "Fifth Period, Hubbard") {
         document.getElementById("NextClass").innerHTML = "Next Class: Programming, Strahan"
     }
-    else if (PTime3 == "Sixth Period, Strahan") {
+    else if (PTime3.innerHTML == "Sixth Period, Strahan") {
         document.getElementById("NextClass").innerHTML = "Next Class: Pre-AP, Vaughn"
     }
-    else if (PTime3 == "Seventh Period, Vaughn") {
+    else if (PTime3.innerHTML == "Seventh Period, Vaughn") {
         document.getElementById("NextClass").innerHTML = "Next Class: FCS, Mitchell"
     }
-    else if (PTime3 == "Eighth Period, Mitchell") {
+    else if (PTime3.innerHTML == "Eighth Period, Mitchell") {
         document.getElementById("NextClass").innerHTML = "Next Class: None, go home."
     }
 }
