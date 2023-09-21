@@ -54,20 +54,6 @@ var RSeventhME = "14:19";
 var MEighthME = "15:12";
 var REighthME = "15:12";
 
-var RSecondHE = "9";
-var MThirdHE = "10";
-var RThirdHE = "10";
-var MFourthHE = "11";
-var RFourthHE = "11";
-var MFifthHE = "12";
-var RFifthHE = "12";
-var MSixthHE = "13";
-var RSixthHE = "13";
-var MSeventhHE = "14";
-var RSeventhHE = "14";
-var MEighthHE = "15";
-var REighthHE = "15";
-
 function A() {
 	B(), D(), E(), F(), Help(), C()
 };
