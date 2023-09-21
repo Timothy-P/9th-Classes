@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="9th.css">
+        <script src="9thBeta.js"></script>
+        <title>
+            9th Classes
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Assistant');
+            body {
+                font-family: 'Assistant';
+                font-size: 48px;
+            }
+            .sidebar {
+            background-color: rgb(240,240,240)/*rgb(20, 20, 20)*/;
+            height: 100%;
+            width: var(--sidebar-width);
+            position: fixed;
+            }
+            .sidebar a{
+                text-decoration: none;
+                /*font-size: 12px;*/
+            }
+            .sidebar p {
+                padding: 5px;
+                text-align: center;
+                margin: 0px;
+                font-family: monospace;
+                font-weight: 900;
+                font-size: 17px; /*14px;*/
+            }
+            .sidebar a div{
+                color: black/*white*/;
+                padding: 5px;
+                padding-left: 15px;
+                /*margin-left:10px;*/
+                transition: 0.2s;
+                font-family: monospace;
+            }
+            .sidebar a div:hover {
+                /*background-color: var(--bg)*/
+                background-color: rgba(0,0,0,0.1)
+            }
+        </style>
+    </head>
+    <body onload="A()" id="body">
+        <center>
+            <div class="sidebar">
+                <p>
+                    Test
+                </p>
+            </div>
+            <p class="text">These are my classes</p>
+            <p class="text" id="Time"></p>
+            <p class="text" id="Time2"></p>
+            <p class="text" id="Time3" onload="Help"></p>
+            <noscript>Hello, it seems you don't have a browser that doesn't support JavaScript. Use Chrome since the majority of this page is JavaScript. <br> I would know that it works because I was doing my testing and such on Chrome.
+            </noscript>
+        </center>
+    </body>
+</html>
