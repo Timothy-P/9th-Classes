@@ -70,13 +70,12 @@ function B() {
             TimeM = "0" + new Date().getMinutes();
         }
     };
-    setTimeout("B()", 0.5);
+    setTimeout("A()", 0.5);
 };
 function D() {
     if (TimeH != new Date().getHours()) {
         TimeH = new Date().getHours();
     };
-    setTimeout("D()", 0.5);
 };
 function E() {
     MTime = TimeH+":"+TimeM+":"+TimeSec
@@ -86,7 +85,6 @@ function E() {
     else {
         document.getElementById("Time").innerHTML = "Military Time: "+MTime;    
     };
-    setTimeout("E()", 0.5);
 };
 function F() {
     if(TimeH > 12) {
@@ -102,7 +100,6 @@ function F() {
     else {
         document.getElementById("Time2").innerHTML = "Civilian Time: "+MTime;
     };
-    setTimeout("F()", 0.5);
 };
 function G() {
     if (new Date().getDay() == "1") {
@@ -154,8 +151,6 @@ function G() {
             document.getElementById("Time3").innerHTML = "First period, JROTC";
         };
     };
-    setTimeout("G()", 0.5);
-    return "Classes are now displayed"
 };
 function C() {
     if (TimeM == "10" && TimeH == "15") {
@@ -176,7 +171,6 @@ function C() {
     else {
         return "Not time yet. Stop bothering my stuff."
     };
-    setTimeout("C()", 0.5);
 };
 function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
