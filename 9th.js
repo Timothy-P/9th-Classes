@@ -60,9 +60,15 @@ function A() {
 function B() {
     if (TimeSec != new Date().getSeconds()) {
         TimeSec = new Date().getSeconds();
+        if (TimeSec < "10") {
+            TimeSec = "0" + new Date().getSeconds();
+        }
     };
     if (TimeM != new Date().getSeconds()) {
         TimeM = new Date().getMinutes();
+        if (TimeM < "10") {
+            TimeM = "0" + new Date().getMinutes();
+        }
     };
     setTimeout("B()", 0.5);
 };
