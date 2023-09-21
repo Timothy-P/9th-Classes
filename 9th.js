@@ -171,3 +171,30 @@ function Return() {
     document.getElementById("body").innerHTML = "Enjoy the site. :D";
     setTimeout('window.open("https://sites.google.com/rsdk12.net/thehub/home", "_self")', 300);
 }
+const PTime3 = document.getElementById("Time3").innerHTML
+function NextC() {
+    if (PTime3 == "First Period, JROTC") {
+        document.getElementById("NextClass").innerHTML = "Next Class: Advisory, Britt"
+    }
+    else if (PTime3 == "Second Period, Britt") {
+        document.getElementById("NextClass").innerHTML = "Next Class: History, Canard"
+    }
+    else if (PTime3 == "Third Period, Canard") {
+        document.getElementById("NextClass").innerHTML = "Next Class: Science, Caldwell"
+    }
+    else if (PTime3 == "Fourth Period, Caldwell") {
+        document.getElementById("NextClass").innerHTML = "Next Class: ELA, Hubbard"
+    }
+    else if (PTime3 == "Fifth Period, Hubbard") {
+        document.getElementById("NextClass").innerHTML = "Next Class: Programming, Strahan"
+    }
+    else if (PTime3 == "Sixth Period, Strahan") {
+        document.getElementById("NextClass").innerHTML = "Next Class: Pre-AP, Vaughn"
+    }
+    else if (PTime3 == "Seventh Period, Vaughn") {
+        document.getElementById("NextClass").innerHTML = "Next Class: FCS, Mitchell"
+    }
+    else if (PTime3 == "Eighth Period, Mitchell") {
+        document.getElementById("NextClass").innerHTML = "Next Class: None, go home."
+    }
+}
