@@ -148,10 +148,10 @@ function C() {
     else if (TimeM == "48" && TimeH == "8") {
         alert("2 minutes until JROTC is over.")
     }
-    else if (TimeM == "22" && TimeH == RSecondE) {
+    else if (TimeM == "22" && TimeH == "9") {
         alert("2 minutes until Advisory is over.")
     }
-    else if (TimeM == "22" && TimeH == RThirdE) {
+    else if (TimeM == "22" && TimeH == "10") {
         alert("2 minutes until History is over.")
     }
     else if (TimeM == "12" && TimeH == "11") {
