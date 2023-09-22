@@ -6,6 +6,8 @@ var TimeM;
 var TimeH;
 var MTime;
 
+var Alpha = "0"
+
 var MFirstMS = "56";
 var RFirstMS = "56";
 var RSecondMS = "54";
@@ -144,18 +146,23 @@ function G() {
 function C() {
     if (TimeM == "10" && TimeH == "15") {
         alert("2 minutes until school is over.")
+        Alpha = "8"
     }
     else if (TimeM == "48" && TimeH == "8") {
         alert("2 minutes until JROTC is over.")
+        Alpha = "1"
     }
     else if (TimeM == "22" && TimeH == "9") {
         alert("2 minutes until Advisory is over.")
+        Alpha = "2"
     }
-    else if (TimeM == "22" && TimeH == "10") {
+    else if (TimeM == "22" && TimeH == "10" && Alpha == "2") {
         alert("2 minutes until History is over.")
+        Alpha = "3"
     }
     else if (TimeM == "12" && TimeH == "11") {
         alert("2 minutes until Science is over.")
+        Alpha = "4"
     }
     else {
         return "Not time yet. Stop bothering my stuff."
